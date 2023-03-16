@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Rackoot",
+  "description": "Extensión para Chrome de Rackoot y su excelente equipo",
+  "version": "1.0",
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "permissions":[
+    "scripting"
+  ],
+ 
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "action": {
+    "default_title": "Open",
+    "default_popup": "index.html"
+    }
+}
